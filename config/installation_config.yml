@@ -1,6 +1,6 @@
-# This file contains all the installation wide configuration which controls various settings in Chatwoot
+# This file contains all the installation wide configuration which controls various settings in Inovmi
 # This is internal config and should not be modified by the user directly in database
-# Chatwoot might override and modify these values during the upgrade process
+# Inovmi might override and modify these values during the upgrade process
 # Configs which can be modified by the user are available in the dashboard under appropriate UI
 #
 # name: the name of the config referenced in the code
@@ -14,58 +14,58 @@
 
 # ------- Branding Related Config ------- #
 - name: INSTALLATION_NAME
-  value: 'Chatwoot'
-  display_title: 'Installation Name'
-  description: 'The installation wide name that would be used in the dashboard, title etc.'
+  value: 'I9PRO'
+  display_title: 'Nome da instalação'
+  description: 'O nome geral da instalação que seria usado no painel, título, etc.'
 - name: LOGO_THUMBNAIL
   value: '/brand-assets/logo_thumbnail.svg'
-  display_title: 'Logo Thumbnail'
-  description: 'The thumbnail that would be used for favicon (512px X 512px)'
+  display_title: 'Miniatura do logotipo'
+  description: 'A miniatura que seria usada para favicon (512px X 512px)'
 - name: LOGO
-  value: '/brand-assets/logo.svg'
-  display_title: 'Logo'
-  description: 'The logo that would be used on the dashboard, login page etc.'
+  value: 'https://api.inovmi.com/api/arq-public/i9pro/logo-inovmi-nova-favicon.png'
+  display_title: 'Logotipo'
+  description: 'O logotipo que seria usado no painel, na página de login, etc.'
 - name: LOGO_DARK
-  value: '/brand-assets/logo_dark.svg'
-  display_title: 'Logo Dark Mode'
-  description: 'The logo that would be used on the dashboard, login page etc. for dark mode'
+  value: 'https://api.inovmi.com/api/arq-public/i9pro/logo-nova-inovmi-white-favicon.png'
+  display_title: 'Logotipo no modo escuro'
+  description: 'O logotipo que seria usado no painel, na página de login, etc., para o modo escuro'
 - name: BRAND_URL
-  value: 'https://www.chatwoot.com'
-  display_title: 'Brand URL'
-  description: 'The URL that would be used in emails under the section "Powered By"'
+  value: 'https://i9pro.inovmi.com.br'
+  display_title: 'URL da marca'
+  description: 'A URL que seria usada em emails na seção "Powered By"'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.chatwoot.com'
-  display_title: 'Widget Brand URL'
-  description: 'The URL that would be used in the widget under the section "Powered By"'
+  value: 'https://i9pro.inovmi.com.br'
+  display_title: 'URL da marca do widget'
+  description: 'A URL que seria usada no widget na seção "Powered By"'
 - name: BRAND_NAME
-  value: 'Chatwoot'
-  display_title: 'Brand Name'
-  description: 'The name that would be used in emails and the widget'
+  value: 'I9PRO'
+  display_title: 'Nome da marca'
+  description: 'O nome que seria usado em emails e no widget'
 - name: TERMS_URL
-  value: 'https://www.chatwoot.com/terms-of-service'
-  display_title: 'Terms URL'
-  description: 'The terms of service URL displayed in Signup Page'
+  value: 'https://i9pro.inovmi.com.br'
+  display_title: 'URL dos termos'
+  description: 'A URL dos termos de serviço exibida na página de inscrição'
 - name: PRIVACY_URL
-  value: 'https://www.chatwoot.com/privacy-policy'
-  display_title: 'Privacy URL'
-  description: 'The privacy policy URL displayed in the app'
+  value: 'https://i9pro.inovmi.com.br'
+  display_title: 'URL de privacidade'
+  description: 'A URL da política de privacidade exibida no aplicativo'
 - name: DISPLAY_MANIFEST
   value: true
-  display_title: 'Chatwoot Metadata'
-  description: 'Display default Chatwoot metadata like favicons and upgrade warnings'
+  display_title: 'Metadados do I9PRO'
+  description: 'Exibir metadados padrão do I9PRO, como favicons e avisos de atualização'
   type: boolean
 # ------- End of Branding Related Config ------- #
 
 # ------- Signup & Account Related Config ------- #
 - name: ENABLE_ACCOUNT_SIGNUP
-  display_title: 'Enable Account Signup'
+  display_title: 'Habilitar inscrição de conta'
   value: false
-  description: 'Allow users to signup for new accounts'
+  description: 'Permitir que os usuários se inscrevam para novas contas'
   locked: false
   type: boolean
 - name: CREATE_NEW_ACCOUNT_FROM_DASHBOARD
   value: false
-  description: 'Allow users to create new accounts from the dashboard'
+  description: 'Permitir que os usuários criem novas contas a partir do painel'
   locked: false
 - name: HCAPTCHA_SITE_KEY
   value:
@@ -75,20 +75,20 @@
   locked: false
 - name: INSTALLATION_EVENTS_WEBHOOK_URL
   value:
-  display_title: 'System events Webhook URL'
-  description: 'The URL to which the system events like new accounts created will be sent'
+  display_title: 'URL do webhook de eventos do sistema'
+  description: 'A URL para a qual os eventos do sistema, como novas contas criadas, serão enviados'
   locked: false
 - name: DIRECT_UPLOADS_ENABLED
   type: boolean
   value: false
-  description: 'Enable direct uploads to cloud storage'
+  description: 'Habilitar uploads diretos para armazenamento em nuvem'
   locked: false
 # ------- End of Account Related Config ------- #
 
 # ------- Email Related Config ------- #
 - name: MAILER_INBOUND_EMAIL_DOMAIN
   value:
-  description: 'The domain name to be used for generating conversation continuity emails (reply+id@domain.com)'
+  description: 'O nome de domínio a ser usado para gerar emails de continuidade de conversas (reply+id@domain.com)'
   locked: false
 - name: MAILER_SUPPORT_EMAIL
   value:
@@ -97,47 +97,47 @@
 
 # ------- Facebook Channel Related Config ------- #
 - name: FB_APP_ID
-  display_title: 'Facebook App ID'
+  display_title: 'ID do aplicativo do Facebook'
   locked: false
 - name: FB_VERIFY_TOKEN
-  display_title: 'Facebook Verify Token'
-  description: 'The verify token used for Facebook Messenger Webhook'
+  display_title: 'Token de verificação do Facebook'
+  description: 'O token de verificação usado para o webhook do Facebook Messenger'
   locked: false
 - name: FB_APP_SECRET
-  display_title: 'Facebook App Secret'
+  display_title: 'Secret do aplicativo do Facebook'
   locked: false
 - name: IG_VERIFY_TOKEN
-  display_title: 'Instagram Verify Token'
-  description: 'The verify token used for Instagram Webhook'
+  display_title: 'Token de verificação do Instagram'
+  description: 'O token de verificação usado para o webhook do Instagram'
   locked: false
 - name: FACEBOOK_API_VERSION
-  display_title: 'Facebook API Version'
-  description: 'Configure this if you want to use a different Facebook API version. Make sure its prefixed with `v`'
+  display_title: 'Versão da API do Facebook'
+  description: 'Configure isso se desejar usar uma versão diferente da API do Facebook. Certifique-se de que esteja prefixado com `v`'
   value: 'v20.0'
   locked: false
 - name: ENABLE_MESSENGER_CHANNEL_HUMAN_AGENT
-  display_title: 'Enable human agent'
+  display_title: 'Habilitar agente humano'
   value: false
   locked: false
-  description: 'Enable human agent for messenger channel for longer message back period. Needs additional app approval: https://developers.facebook.com/docs/features-reference/human-agent/'
+  description: 'Habilitar agente humano para o canal do messenger para um período de resposta mais longo. Necessita de aprovação adicional do aplicativo: https://developers.facebook.com/docs/features-reference/human-agent/'
   type: boolean
 # ------- End of Facebook Channel Related Config ------- #
 
 # MARK: Microsoft Email Channel Config
 - name: AZURE_APP_ID
-  display_title: 'Azure App ID'
-  description: 'The App ID that will be used to authenticate with customer Microsoft accounts. Find more details on setting up Azure here: https://chwt.app/dev/ms'
+  display_title: 'App ID Azure'
+  description: 'O ID do aplicativo que será usado para autenticação nas contas Microsoft dos clientes. Encontre mais detalhes sobre a configuração do Azure aqui: https://inovmi.com.br'
   locked: false
 - name: AZURE_APP_SECRET
-  display_title: 'Azure App Secret'
+  display_title: 'App Secret Azure'
   locked: false
 # End of Microsoft Email Channel Config
 
 # MARK: UNOAPI Channel Config
 - name: UNOAPI_AUTH_TOKEN
   value:
-  display_title: 'UNO API Auth Token'
-  description: 'The Auth Token for UNO API. Find more details on how to configure UNOAPI here: https://github.com/clairton/unoapi-cloud/tree/main'
+  display_title: 'Token Auth API UNO'
+  description: 'O Token de Autenticação para a API UNO. Encontre mais detalhes sobre como configurar a UNOAPI aqui: https://inovmi.com.br'
 # End of UNOAPI Channel Config
 
 # MARK: WhatsApp Embedded
@@ -145,131 +145,131 @@
   value:
   display_title: 'License Key'
   description: >
-    The license key for WhatsApp Embedded
-    This key is required to access WhatsApp's embedded functionality. Contact us via WhatsApp: https://bit.ly/3zfMVgT
+    A chave de licença para o WhatsApp Embedded
+    Esta chave é necessária para acessar a funcionalidade incorporada do WhatsApp. Entre em contato conosco pelo WhatsApp: 5561998223739
 - name: WHATSAPP_EMBEDDED_FACEBOOK_APP_ID
   value:
-  display_title: 'Facebook App ID'
-  description: 'The Facebook App ID for WhatsApp Embedded'
+  display_title: 'App ID Facebook'
+  description: 'O ID do aplicativo do Facebook para WhatsApp incorporado'
 - name: WHATSAPP_EMBEDDED_FACEBOOK_CONFIG_ID
   value:
-  display_title: 'Facebook Config ID'
-  description: 'The Facebook Config ID for WhatsApp Embedded'
+  display_title: 'Config ID Facebook'
+  description: 'ID de configuração do Facebook para WhatsApp incorporado'
 - name: WHATSAPP_EMBEDDED_FACEBOOK_TOKEN
   value:
-  display_title: 'Facebook Token'
-  description: 'The Facebook Token for WhatsApp Embedded'
+  display_title: 'Token Facebook'
+  description: 'O token do Facebook para WhatsApp incorporado'
 - name: WABA_EMBEDDED_SIGNUP
   type: boolean
   value: false
-  display_title: 'WABA Embedded Signup'
-  description: 'Enable WABA Embedded Signup'
+  display_title: 'Inscrição incorporada WABA'
+  description: 'Habilitar inscrição incorporada WABA'
   locked: false
 # End of WhatsApp Embedded
 
-# ------- Chatwoot Internal Config for Cloud ----#
+# ------- I9PRO Internal Config for Cloud ----#
 - name: CHATWOOT_INBOX_TOKEN
   value:
-  display_title: 'Inbox Token'
-  description: 'The Chatwoot Inbox Token for Contact Support in Cloud'
+  display_title: 'Token de caixa de entrada'
+  description: 'O token de caixa de entrada do I9PRO para suporte ao contato na nuvem'
   locked: false
 - name: CHATWOOT_INBOX_HMAC_KEY
   value:
-  display_title: 'Inbox HMAC Key'
-  description: 'The Chatwoot Inbox HMAC Key for Contact Support in Cloud'
+  display_title: 'Chave HMAC de caixa de entrada'
+  description: 'A chave HMAC de caixa de entrada do I9PRO para suporte ao contato na nuvem'
   locked: false
 - name: CHATWOOT_CLOUD_PLANS
   display_title: 'Cloud Plans'
   value:
-  description: 'Config to store stripe plans for cloud'
+  description: 'Configuração para armazenar planos de distribuição para nuvem'
 - name: CHATWOOT_CLOUD_PLAN_FEATURES
   display_title: 'Planwise Features List'
   value:
-  description: 'Config to features and their associated plans'
+  description: 'Configuração para armazenar planos do Stripe para nuvem'
 - name: DEPLOYMENT_ENV
   value: self-hosted
-  description: 'The deployment environment of the installation, to differentiate between Chatwoot cloud and self-hosted'
+  description: 'O ambiente de implantação da instalação, para diferenciar entre a nuvem do I9PRO e auto-hospedado'
 - name: ANALYTICS_TOKEN
   value:
-  display_title: 'Analytics Token'
-  description: 'The June.so analytics token for Chatwoot cloud'
+  display_title: 'Token de análise'
+  description: 'O token de análise June.so para nuvem do I9PRO'
 - name: CLEARBIT_API_KEY
   value:
-  display_title: 'Clearbit API Key'
-  description: 'This API key is used for onboarding the users, to pre-fill account data.'
+  display_title: 'Chave de API do Clearbit'
+  description: 'Esta chave de API é usada para integrar os usuários e preencher previamente os dados da conta.'
 - name: DASHBOARD_SCRIPTS
   value:
-  display_title: 'Dashboard Scripts'
-  description: 'Scripts are loaded as the last item in the <body> tag'
+  display_title: 'Scripts da Dashboard'
+  description: 'Os scripts são carregados como o último item na tag <body>'
   type: code
 - name: BLOCKED_EMAIL_DOMAINS
   value:
-  display_title: 'Blocked Email Domains'
-  description: 'Add a domain per line to block them from signing up, accepts Regex'
+  display_title: 'Domínios de e-mail bloqueados'
+  description: 'Adicione um domínio por linha para bloqueá-los de se inscrever, aceita Regex'
   type: code
-# ------- End of Chatwoot Internal Config for Cloud ----#
+# ------- End of I9PRO Internal Config for Cloud ----#
 
-# ------- Chatwoot Internal Config for Self Hosted ----#
+# ------- I9PRO Internal Config for Self Hosted ----#
 - name: INSTALLATION_PRICING_PLAN
   value: 'enterprise'
-  description: 'The pricing plan for the installation, retrieved from the billing API'
+  description: 'O plano de preços para a instalação, recuperado da API de faturamento'
 - name: INSTALLATION_PRICING_PLAN_QUANTITY
   value: 10000
-  description: 'The number of licenses purchased for the installation, retrieved from the billing API'
+  description: 'O número de licenças compradas para a instalação, recuperado da API de faturamento'
 - name: CHATWOOT_SUPPORT_WEBSITE_TOKEN
   value:
-  description: 'The Chatwoot website token, used to identify the Chatwoot inbox and display the "Contact Support" option on the billing page'
+  description: 'O token do site do I9PRO, usado para identificar a caixa de entrada do I9PRO e exibir a opção "Contact Support" na página de faturamento'
 - name: CHATWOOT_SUPPORT_SCRIPT_URL
   value:
-  description: 'The Chatwoot script base URL, to display the "Contact Support" option on the billing page'
+  description: 'A URL base do script do I9PRO, para exibir a opção "Contact Support" na página de faturamento'
 - name: CHATWOOT_SUPPORT_IDENTIFIER_HASH
   value:
-  description: 'The Chatwoot identifier hash, to validate the contact in the live chat window.'
-# ------- End of Chatwoot Internal Config for Self Hosted ----#
+  description: 'O hash identificador do I9PRO, para validar o contato na janela de chat ao vivo.'
+# ------- End of I9PRO Internal Config for Self Hosted ----#
 
 ## ------ Configs added for enterprise clients ------ ##
 - name: API_CHANNEL_NAME
   value:
-  description: 'Custom name for the API channel'
+  description: 'Nome personalizado para o canal da API'
 - name: API_CHANNEL_THUMBNAIL
   value:
-  description: 'Custom thumbnail for the API channel'
+  description: 'Miniatura personalizada para o canal da API'
 - name: LOGOUT_REDIRECT_LINK
   value: /app/login
   locked: false
-  description: 'Redirect to a different link after logout'
+  description: 'Redirecionar para um link diferente após o logout'
 - name: DISABLE_USER_PROFILE_UPDATE
   value: false
   locked: false
-  description: 'Disable rendering profile update page for users'
+  description: 'Desabilitar a renderização da página de atualização de perfil para os usuários'
 ## ------ End of Configs added for enterprise clients ------ ##
 
 ## ------ Configs added for FCM v1 notifications ------ ##
 - name: FIREBASE_PROJECT_ID
-  display_title: 'Firebase Project ID'
+  display_title: 'ID do Projeto Firebase'
   value:
   locked: false
-  description: 'Firebase project ID'
+  description: 'ID do Projeto Firebase'
 - name: FIREBASE_CREDENTIALS
-  display_title: 'Firebase Credentials'
+  display_title: 'Credenciais Firebase'
   value:
   locked: false
-  description: 'Contents on your firebase credentials json file'
+  description: 'Conteúdo do seu arquivo json de credenciais do Firebase'
 ## ------ End of Configs added for FCM v1 notifications ------ ##
 
 ## ------ Configs custom ------ ##
 - name: CONVERSATION_STYLE_CSS
-  display_title: 'Conversation Style CSS'
+  display_title: 'CSS de estilo de conversa'
   value:
-  description: 'Customize conversation, put your valid css'
+  description: 'Personalize a conversa, coloque seu css válido'
 ## ------ End of Configs custom ------ ##
 ## ----- Captain Configs ----- ##
 - name: CAPTAIN_API_URL
   value:
-  display_title: 'Captain API URL'
-  description: 'The API URL for Captain'
+  display_title: 'URL da API para o Captain'
+  description: 'A URL da API para o Captain'
 - name: CAPTAIN_APP_URL
   value:
-  display_title: 'Captain App URL'
-  description: 'The App URL for Captain'
+  display_title: 'URL do App para o Captain'
+  description: 'A URL do App para o Captain'
 ## ----- End of Captain Configs ----- ##
