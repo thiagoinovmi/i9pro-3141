@@ -1,22 +1,22 @@
 # ------- Branding Related Config ------- #
 - name: INSTALLATION_NAME
-  value: 'Chatwoot'
+  value: 'I9PRO'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail.svg'
+  value: 'https://api.inovmi.com/api/arq-public/i9pro/logo-inovmi-nova-favicon.png'
 - name: LOGO
-  value: '/brand-assets/logo.svg'
+  value: 'https://api.inovmi.com/api/arq-public/i9pro/logo-inovmi-nova-favicon.png'
 - name: LOGO_DARK
-  value: '/brand-assets/logo_dark.svg'
+  value: 'https://api.inovmi.com/api/arq-public/i9pro/logo-nova-inovmi-white-favicon.png'
 - name: BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://www.inovmi.com.br'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://www.inovmi.com.br'
 - name: BRAND_NAME
-  value: 'Chatwoot'
+  value: 'I9PRO'
 - name: TERMS_URL
-  value: 'https://www.chatwoot.com/terms-of-service'
+  value: 'https://www.inovmi.com.br'
 - name: PRIVACY_URL
-  value: 'https://www.chatwoot.com/privacy-policy'
+  value: 'https://www.inovmi.com.br'
 - name: DISPLAY_MANIFEST
   value: true
 # ------- End of Branding Related Config ------- #
