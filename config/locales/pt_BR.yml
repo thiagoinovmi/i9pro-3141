@@ -193,23 +193,23 @@ pt_BR:
       description: "Apps do Painel permitem que você crie e incorpore aplicativos que exibem informações, pedidos ou histórico de pagamento, fornecendo mais contexto aos seus agentes de suporte ao cliente."
     dyte:
       name: "Dyte"
-      description: "Dyte é um produto que integra as funcionalidades de áudio e vídeo em seu aplicativo. Com esta integração, seus agentes podem iniciar chamadas de vídeo/voz com seus clientes diretamente do Chatwoot."
+      description: "Dyte é um produto que integra as funcionalidades de áudio e vídeo em seu aplicativo. Com esta integração, seus agentes podem iniciar chamadas de vídeo/voz com seus clientes diretamente do I9PRO."
       meeting_name: "%{agent_name} começou a reunião"
     slack:
       name: "Slack"
-      description: "Integre Chatwoot com Slack para manter sua equipe em sincronia. Essa integração permite que você receba notificações de novas conversas e as responda diretamente na interface do Slack."
+      description: "Slack é uma ferramenta que reúne todas as suas comunicações em um só lugar. Ao integrar o Slack, você pode ser notificado de todas as novas conversas da sua conta diretamente no seu Slack."
     webhooks:
       name: "Webhooks"
-      description: "Eventos webhook fornecem atualizações sobre atividades em tempo real na sua conta Chatwoot. Você pode se inscrever em seus eventos preferidos, e o Chatwoot enviará as chamadas HTTP com as atualizações."
+      description: "Webhooks fornecem informações em tempo real sobre o que está acontecendo em sua conta. Você pode usar os webhooks para comunicar eventos com seus aplicativos favoritos como Slack ou Github. Clique em Configurar para configurar seus webhooks."
     dialogflow:
-      name: "Fluxo de diálogo"
-      description: "Construa chatbots com o Dialogflow e integre-os facilmente na sua caixa de entrada. Esses bots podem lidar com as consultas iniciais antes de transferi-las para um agente de atendimento ao cliente."
+      name: "Dialogflow"
+      description: "Construa chatbots usando Dialogflow e conecte-os à sua caixa de entrada rapidamente. Deixe os bots lidarem com as consultas antes de entregá-los a um agente de atendimento ao cliente."
     google_translate:
       name: "Tradutor do Google"
-      description: "Integre o Google Tradutor para ajudar os agentes a traduzir facilmente as mensagens dos clientes. Esta integração detecta automaticamente o idioma e o converte para o idioma preferido do agente ou do administrador."
+      description: "Torne isso mais fácil para agentes traduzirem mensagens adicionando uma integração com o Tradutor do Google. O Tradutor do Google ajuda a identificar automaticamente o idioma e convertê-lo para o idioma escolhido pelo administrador de conta/agente."
     openai:
       name: "IA Generativa"
-      description: "Aproveite o poder dos grandes modelos de IA Generativa como OpenAI, Groq, LocalAI  outros, com recursos como sugestões de resposta, resumo, reformulação de mensagens, verificação ortográfica e classificação de rótulos."
+      description: "Aproveite o poder dos grandes modelos de IA Generativa como OpenAI, Groq, LocalAI e outros, com recursos como sugestões de resposta, resumo, reformulação de mensagens, verificação ortográfica e classificação de rótulos."
     linear:
       name: "Linear"
       description: "Crie issues em Linear diretamente da sua janela de conversa. Alternativamente, vincule as issues lineares existentes para um processo de rastreamento de problemas mais simples e eficiente."
@@ -273,3 +273,60 @@ pt_BR:
     seconds:
       one: "%{count} segundo"
       other: "%{count} segundos"
+  helpers:
+    label:
+      user:
+        account_users: 'Usuários da Conta'
+        id: 'ID'
+        avatar_url: 'URL do Avatar'
+        avatar: 'Avatar'
+        provider: "Provedor"
+        uid: "UID"
+        password: "Senha"
+        sign_in_count: "Contagem de Logins"
+        current_sign_in_at: "Último Login em"
+        last_sign_in_at: "Último Login em"
+        current_sign_in_ip: "IP de Último Login"
+        last_sign_in_ip: "IP de Último Login"
+        confirmation_token: "Token de Confirmação"
+        confirmed_at: "Confirmado em"
+        confirmation_sent_at: "Confirmação Enviada em"
+        unconfirmed_email: "Email não Confirmado"
+        name: "Nome"
+        display_name: "Nome de Exibição"
+        email: "Email"
+        tokens: "Tokens"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+        pubsub_token: "Token de PubSub"
+        type: "Tipo"
+        accounts: "Contas"
+        access_token: "Token de Acesso"
+  administrate:
+    actions:
+      confirm: Você tem certeza?
+      destroy: Deletar
+      edit: Editar
+      edit_resource: Editar %{name}
+      show_resource: Visualizar %{name}
+      new_resource: Criar %{name}
+      back: Voltar
+    controller:
+      create:
+        success: "%{resource} foi criado com sucesso."
+      destroy:
+        success: "%{resource} foi deletado com sucesso."
+      update:
+        success: "%{resource} foi atualizado com sucesso."
+    fields:
+      has_many:
+        more: "Exibindo %{count} de %{total_count}"
+        none: Nenhum
+    form:
+      error: erro
+      errors: "%{pluralized_errors} impediram %{resource_name} de ser gravado:"
+    navigation:
+      back_to_app: Voltar ao aplicativo
+    search:
+      clear: Limpar pesquisa
+      label: Pesquisar %{resource}
