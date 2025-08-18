@@ -16,7 +16,7 @@
 
   <% if Redis::Alfred.get(Redis::Alfred::CHATWOOT_INSTALLATION_CONFIG_RESET_WARNING) %>
     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-5" role="alert">
-    <strong class="font-bold">Alert!</strong>
+    <strong class="font-bold">Atenção!</strong>
     <span class="block sm:inline">Alterações premium não autorizadas detectadas no I9PRO. Para continuar a usá-los, atualize seu plano.
       Contato para ajuda :</span><span class="inline rounded-full bg-red-200 px-2  text-white  ml-2">suporte@inovmi.com.br</span>
     </div>
@@ -31,7 +31,7 @@
           <span>Atualizar</span>
         </a>
       </div>
-      <p class="text-slate-600 mt-1"><%= SuperAdmin::FeaturesHelper.plan_details.html_safe %></p>
+      <p class="text-slate-600 mt-1">Enterprise</p>
       <a href="<%= ChatwootHub.billing_url %>" target="_blank" rel="noopener noreferrer">
         <button class="mt-4 md:mt-0 flex gap-1 items-center bg-transparent shadow-sm h-9 hover:bg-slate-100 hover:text-slate-800 border border-solid border-slate-100 rounded text-slate-700 font-medium p-2">
           <svg width="16" height="16"><use xlink:href="#icon-settings-2-line" /></svg>
@@ -39,14 +39,6 @@
         </button>
       </a>
     </div>
-
-    <% if ChatwootHub.pricing_plan != 'community' &&  User.count > ChatwootHub.pricing_plan_quantity %>
-    <div role="alert">
-      <div class="border border-t-0 border-red-400 rounded-b bg-red-100 px-4 py-3 text-red-700">
-        <p>Você tem <%= User.count %> agentes. Adicione mais licenças para adicionar mais usuários.</p>
-      </div>
-    </div>
-    <% end %>
       
       <a href="https://wa.me/5561998223739" target="_blank">
         <button class="flex mt-4 md:mt-0 gap-1 items-center bg-transparent shadow-sm h-9 bg-violet-500 hover:bg-violet-600 text-violet-100 hover:text-violet-200 border border-solid border-violet-600 rounded font-medium p-2">
