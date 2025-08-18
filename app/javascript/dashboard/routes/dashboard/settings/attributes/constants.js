@@ -1,22 +1,22 @@
 export const ATTRIBUTE_MODELS = [
   {
     id: 0,
-    option: 'Conversation',
+    option: 'Conversa',
   },
   {
     id: 1,
-    option: 'Contact',
+    option: 'Contato',
   },
 ];
 
 export const ATTRIBUTE_TYPES = [
   {
     id: 0,
-    option: 'Text',
+    option: 'Texto',
   },
   {
     id: 1,
-    option: 'Number',
+    option: 'Número',
   },
   {
     id: 4,
@@ -24,14 +24,14 @@ export const ATTRIBUTE_TYPES = [
   },
   {
     id: 5,
-    option: 'Date',
+    option: 'Data',
   },
   {
     id: 6,
-    option: 'List',
+    option: 'Lista',
   },
   {
     id: 7,
-    option: 'Checkbox',
+    option: 'Caixa de seleção',
   },
 ];
