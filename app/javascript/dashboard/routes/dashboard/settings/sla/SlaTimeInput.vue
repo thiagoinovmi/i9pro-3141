@@ -29,9 +29,9 @@ export default {
       thresholdTime: this.threshold || '',
       thresholdUnitValue: this.thresholdUnit,
       options: [
-        { value: 'Minutes', label: 'minutes' },
-        { value: 'Hours', label: 'hours' },
-        { value: 'Days', label: 'days' },
+        { value: 'Minutes', label: 'minutos' },
+        { value: 'Hours', label: 'horas' },
+        { value: 'Days', label: 'dias' },
       ],
     };
   },
