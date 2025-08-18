@@ -14,8 +14,8 @@ class PublicController < ActionController::Base
     return if @portal.present?
 
     render json: {
-      error: "Domain: #{domain} is not registered with us. \
-      Please send us an email at support@chatwoot.com with the custom domain name and account API key"
+      error: "Domínino: #{domain} não está registrado com a Inovmi. \
+      Envie-nos um e-mail para support@inovmi.com com o nome de domínio personalizado e a chave API da conta"
     }, status: :unauthorized and return
   end
 end
