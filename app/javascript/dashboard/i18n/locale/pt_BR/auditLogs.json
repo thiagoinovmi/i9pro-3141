@@ -6,16 +6,16 @@
     "DESCRIPTION": "Os Logs de Auditoria mantêm um registro das atividades em sua conta, permitindo que você rastreie e audite sua conta, equipe ou serviços.",
     "LEARN_MORE": "Saiba mais sobre logs de auditoria",
     "SEARCH_404": "Não há itens correspondentes a esta consulta",
-    "SIDEBAR_TXT": "<p><b>Logs de Auditoria</b> </p><p> Os Logs de Auditoria são trilhas para eventos e ações em um Sistema Chatwoot. </p>",
+    "SIDEBAR_TXT": "<p><b>Logs de Auditoria</b> </p><p> Os Logs de Auditoria são trilhas para eventos e ações em um Sistema I9PRO. </p>",
     "LIST": {
       "404": "Não há Logs de Auditoria disponíveis nesta conta.",
       "TITLE": "Gerenciar Logs de Auditoria",
-      "DESC": "Os Logs de Auditoria são trilhas para eventos e ações em um Sistema Chatwoot.",
+      "DESC": "Os Logs de Auditoria são trilhas para eventos e ações em um Sistema I9PRO.",
       "TABLE_HEADER": ["Activity", "Time", "IP Address"]
     },
     "API": {
       "SUCCESS_MESSAGE": "AuditLogs retrieved successfully",
-      "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
+      "ERROR_MESSAGE": "Could not connect to I9PRO Server, Please try again later"
     },
     "DEFAULT_USER": "System",
     "AUTOMATION_RULE": {
