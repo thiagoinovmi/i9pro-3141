@@ -2,8 +2,8 @@
  <hr/>
   <%= form_for([:reset_cache, namespace, page.resource], method: :post, html: { class: "form" }) do |f| %>
     <div class="form-actions">
-      <p>This will clear the IndexedDB cache keys from redis. <br>The next load will fetch the data from backend.</p>
-      <%= f.submit 'Reset Frontend Cache' %>
+      <p>Isso limpará as chaves de cache IndexedDB do redis. <br>O próximo carregamento irá buscar os dados do backend.</p>
+      <%= f.submit 'Atualizar o cache' %>
     </div>
   <% end %>
 </section>
