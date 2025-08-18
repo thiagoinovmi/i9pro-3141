@@ -265,16 +265,9 @@ export default {
         </div>
       </div>
       <div class="p-4 text-sm text-center">
-        <div>{{ `v${globalConfig.appVersion}` }}</div>
-        <div v-if="hasAnUpdateAvailable && globalConfig.displayManifest">
-          {{
-            $t('GENERAL_SETTINGS.UPDATE_CHATWOOT', {
-              latestChatwootVersion: latestChatwootVersion,
-            })
-          }}
-        </div>
+        <div>I9PRO - Inovmi Tecnologia</div>
         <div class="build-id">
-          <div>{{ `Build ${globalConfig.gitSha}` }}</div>
+          <div>Versão 3.10.3</div>
         </div>
       </div>
 
