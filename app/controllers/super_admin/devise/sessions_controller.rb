@@ -28,7 +28,7 @@ class SuperAdmin::Devise::SessionsController < Devise::SessionsController
     true
   rescue StandardError => e
     Rails.logger.error e.message
-    @error_message = 'Invalid credentials. Please try again.'
+    @error_message = 'Usuário ou senha inválido. Por favor, tente novamente'
     false
   end
 end
