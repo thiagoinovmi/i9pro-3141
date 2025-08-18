@@ -44,14 +44,14 @@
       "API": {
         "SUCCESS_MESSAGE": "Agente adicionado com sucesso",
         "EXIST_MESSAGE": "Email do agente já está em uso, por favor, tente outro endereço de email",
-        "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+        "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
       }
     },
     "DELETE": {
       "BUTTON_TEXT": "Delete",
       "API": {
         "SUCCESS_MESSAGE": "Agente deletado com sucesso",
-        "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+        "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
       },
       "CONFIRM": {
         "TITLE": "Confirmar Exclusão",
@@ -87,13 +87,13 @@
       "CANCEL_BUTTON_TEXT": "Cancelar",
       "API": {
         "SUCCESS_MESSAGE": "Agente atualizado com sucesso",
-        "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+        "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
       },
       "PASSWORD_RESET": {
         "ADMIN_RESET_BUTTON": "Reset Password",
         "ADMIN_SUCCESS_MESSAGE": "Um email com instruções para redefinir a senha foi enviado ao agente",
         "SUCCESS_MESSAGE": "Senha do agente redefinida com sucesso",
-        "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+        "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
       }
     },
     "SEARCH": {
