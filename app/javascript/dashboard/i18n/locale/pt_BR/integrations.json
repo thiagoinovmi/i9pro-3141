@@ -1,7 +1,7 @@
 {
   "INTEGRATION_SETTINGS": {
     "HEADER": "Integrações",
-    "DESCRIPTION": "Chatwoot se integra com várias ferramentas e serviços para melhorar a eficiência da sua equipe. Explore a lista abaixo para configurar seus aplicativos favoritos.",
+    "DESCRIPTION": "I9PRO se integra com várias ferramentas e serviços para melhorar a eficiência da sua equipe. Explore a lista abaixo para configurar seus aplicativos favoritos.",
     "LEARN_MORE": "Saiba mais sobre integrações",
     "LOADING": "Buscando integrações",
     "CAPTAIN": {
@@ -27,7 +27,7 @@
       "LEARN_MORE": "Saiba mais sobre webhooks",
       "FORM": {
         "CANCEL": "Cancelar",
-        "DESC": "Eventos de webhook fornecem informações em tempo real sobre o que está acontecendo na sua conta Chatwoot. Por favor, insira uma URL válida para configurar um callback.",
+        "DESC": "Eventos de webhook fornecem informações em tempo real sobre o que está acontecendo na sua conta I9PRO. Por favor, insira uma URL válida para configurar um callback.",
         "SUBSCRIPTIONS": {
           "LABEL": "Eventos",
           "EVENTS": {
@@ -56,7 +56,7 @@
       "HEADER_BTN_TXT": "Adicionar novo webhook",
       "LOADING": "Buscando webhooks anexados",
       "SEARCH_404": "Não há itens correspondentes a esta consulta",
-      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks são callbacks HTTP que podem ser definidos para cada conta. Eles são acionados por eventos como a criação de mensagens no Chatwoot. Você pode criar mais de um webhook para esta conta. <br /><br /> Para criar um <b>webhook</b>, clique no botão <b>Adicionar novo webhook</b>. Você também pode remover qualquer webhook existente clicando no botão Excluir.</p>",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks são callbacks HTTP que podem ser definidos para cada conta. Eles são acionados por eventos como a criação de mensagens no I9PRO. Você pode criar mais de um webhook para esta conta. <br /><br /> Para criar um <b>webhook</b>, clique no botão <b>Adicionar novo webhook</b>. Você também pode remover qualquer webhook existente clicando no botão Excluir.</p>",
       "LIST": {
         "404": "Não há webhooks configurados para esta conta.",
         "TITLE": "Gerenciar webhooks",
@@ -70,7 +70,7 @@
         "TITLE": "Editar webhook",
         "API": {
           "SUCCESS_MESSAGE": "Configuração do webhook atualizada com sucesso",
-          "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+          "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
         }
       },
       "ADD": {
@@ -78,14 +78,14 @@
         "TITLE": "Adicionar novo webhook",
         "API": {
           "SUCCESS_MESSAGE": "Configuração do webhook adicionada com sucesso",
-          "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+          "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
         }
       },
       "DELETE": {
         "BUTTON_TEXT": "Excluir",
         "API": {
           "SUCCESS_MESSAGE": "Webhook excluído com sucesso",
-          "ERROR_MESSAGE": "Não foi possível conectar ao servidor Woot, por favor, tente novamente mais tarde"
+          "ERROR_MESSAGE": "Não foi possível conectar ao servidor I9PRO, por favor, tente novamente mais tarde"
         },
         "CONFIRM": {
           "TITLE": "Confirmar Exclusão",
@@ -103,14 +103,14 @@
       },
       "HELP_TEXT": {
         "TITLE": "Como usar a Integração com o Slack?",
-        "BODY": "Com esta integração, todas as suas conversas recebidas serão sincronizadas com o canal ***%{selectedChannelName}*** no seu workspace do Slack. Você pode gerenciar todas as suas conversas com clientes diretamente no canal e nunca perder uma mensagem.\n\nAqui estão os principais recursos da integração:\n\n**Responder a conversas dentro do Slack:** Para responder a uma conversa no canal ***%{selectedChannelName}*** do Slack, basta digitar sua mensagem e enviá-la como um thread. Isso criará uma resposta de volta para o cliente através do Chatwoot. É simples assim!\n\n **Criar notas privadas:** Se você quiser criar notas privadas em vez de respostas, comece sua mensagem com ***`note:`***. Isso garante que sua mensagem seja mantida privada e não será visível para o cliente.\n\n**Associar um perfil de agente:** Se a pessoa que respondeu no Slack tiver um perfil de agente no Chatwoot com o mesmo e-mail, as respostas serão associadas automaticamente ao perfil do agente. Isso significa que você pode facilmente rastrear quem disse o quê e quando. Por outro lado, quando o respondente não tiver um perfil de agente associado, as respostas aparecerão do perfil do bot para o cliente.",
+        "BODY": "Com esta integração, todas as suas conversas recebidas serão sincronizadas com o canal ***%{selectedChannelName}*** no seu workspace do Slack. Você pode gerenciar todas as suas conversas com clientes diretamente no canal e nunca perder uma mensagem.\n\nAqui estão os principais recursos da integração:\n\n**Responder a conversas dentro do Slack:** Para responder a uma conversa no canal ***%{selectedChannelName}*** do Slack, basta digitar sua mensagem e enviá-la como um thread. Isso criará uma resposta de volta para o cliente através do I9PRO. É simples assim!\n\n **Criar notas privadas:** Se você quiser criar notas privadas em vez de respostas, comece sua mensagem com ***`note:`***. Isso garante que sua mensagem seja mantida privada e não será visível para o cliente.\n\n**Associar um perfil de agente:** Se a pessoa que respondeu no Slack tiver um perfil de agente no I9PRO com o mesmo e-mail, as respostas serão associadas automaticamente ao perfil do agente. Isso significa que você pode facilmente rastrear quem disse o quê e quando. Por outro lado, quando o respondente não tiver um perfil de agente associado, as respostas aparecerão do perfil do bot para o cliente.",
         "SELECTED": "selecionado"
       },
       "SELECT_CHANNEL": {
         "OPTION_LABEL": "Selecione um canal",
         "UPDATE": "Atualizar",
         "BUTTON_TEXT": "Conectar canal",
-        "DESCRIPTION": "Seu workspace do Slack está agora vinculado ao Chatwoot. No entanto, a integração está atualmente inativa. Para ativar a integração e conectar um canal ao Chatwoot, por favor, clique no botão abaixo.\n\n**Nota:** Se você estiver tentando conectar um canal privado, adicione o aplicativo Chatwoot ao canal do Slack antes de prosseguir com esta etapa.",
+        "DESCRIPTION": "Seu workspace do Slack está agora vinculado ao I9PRO. No entanto, a integração está atualmente inativa. Para ativar a integração e conectar um canal ao I9PRO, por favor, clique no botão abaixo.\n\n**Nota:** Se você estiver tentando conectar um canal privado, adicione o aplicativo I9PRO ao canal do Slack antes de prosseguir com esta etapa.",
         "ATTENTION_REQUIRED": "Atenção necessária",
         "EXPIRED": "Sua integração com o Slack expirou. Para continuar recebendo mensagens no Slack, por favor, exclua a integração e conecte seu workspace novamente."
       },
@@ -190,7 +190,7 @@
     "DASHBOARD_APPS": {
       "TITLE": "Aplicativos do Painel",
       "HEADER_BTN_TXT": "Adicionar um novo aplicativo ao painel",
-      "SIDEBAR_TXT": "<p><b>Aplicativos do Painel</b></p><p>Os Aplicativos do Painel permitem que as organizações incorporem um aplicativo dentro do painel do Chatwoot para fornecer contexto aos agentes de suporte ao cliente. Este recurso permite que você crie um aplicativo de forma independente e o incorpore dentro do painel para fornecer informações do usuário, seus pedidos ou seu histórico de pagamentos anteriores.</p><p>Quando você incorpora seu aplicativo usando o painel no Chatwoot, seu aplicativo receberá o contexto da conversa e do contato como um evento de janela. Implemente um ouvinte para o evento de mensagem na sua página para receber o contexto.</p><p>Para adicionar um novo aplicativo ao painel, clique no botão 'Adicionar um novo aplicativo ao painel'.</p>",
+      "SIDEBAR_TXT": "<p><b>Aplicativos do Painel</b></p><p>Os Aplicativos do Painel permitem que as organizações incorporem um aplicativo dentro do painel do I9PRO para fornecer contexto aos agentes de suporte ao cliente. Este recurso permite que você crie um aplicativo de forma independente e o incorpore dentro do painel para fornecer informações do usuário, seus pedidos ou seu histórico de pagamentos anteriores.</p><p>Quando você incorpora seu aplicativo usando o painel no I9PRO, seu aplicativo receberá o contexto da conversa e do contato como um evento de janela. Implemente um ouvinte para o evento de mensagem na sua página para receber o contexto.</p><p>Para adicionar um novo aplicativo ao painel, clique no botão 'Adicionar um novo aplicativo ao painel'.</p>",
       "DESCRIPTION": "Os Aplicativos do Painel permitem que as organizações incorporem um aplicativo dentro do painel para fornecer contexto aos agentes de suporte ao cliente. Este recurso permite que você crie um aplicativo de forma independente e o incorpore para fornecer informações do usuário, seus pedidos ou seu histórico de pagamentos anteriores.",
       "LEARN_MORE": "Saiba mais sobre Aplicativos do Painel",
       "LIST": {
