@@ -267,7 +267,7 @@ export default {
       <div class="p-4 text-sm text-center">
         <div>I9PRO - Inovmi Tecnologia</div>
         <div class="build-id">
-          <div>Versão 3.10.3</div>
+          <div>Versão 3.14.1</div>
         </div>
       </div>
 
