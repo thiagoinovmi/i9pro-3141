@@ -195,7 +195,7 @@ export default {
             data-testid="email_input"
             :tabindex="1"
             required
-            :label="$t('LOGIN.EMAIL.LABEL')"
+            :label="E-mail"
             :placeholder="$t('LOGIN.EMAIL.PLACEHOLDER')"
             :has-error="v$.credentials.email.$error"
             @input="v$.credentials.email.$touch"
