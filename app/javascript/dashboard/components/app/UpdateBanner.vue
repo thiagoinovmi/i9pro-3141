@@ -40,6 +40,7 @@ export default {
         this.updateAvailable &&
         !this.isVersionNotificationDismissed(this.latestChatwootVersion) &&
         this.isAdmin
+        false
       );
     },
   },
