@@ -22,7 +22,7 @@ class SuperAdmin::AppConfigsController < SuperAdmin::ApplicationController
       i.value = value
       i.save!
     end
-    redirect_to super_admin_settings_path, notice: "App Configs - #{@config.titleize} updated successfully"
+    redirect_to super_admin_settings_path, notice: "Configurações - #{@config.titleize} atualizado com sucesso"
   end
 
   private
